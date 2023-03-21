@@ -1,0 +1,136 @@
+* {
+    background-color: #092327;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.center-text {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+.sub-header {
+    text-align: center;
+    font-weight: normal;
+    color: navajowhite;
+    opacity: 0.75;
+    padding-bottom: 20px;
+}
+
+.user-type {
+    color: #00A9A5;
+}
+
+#user-type-p {
+    padding-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.line-break {
+    width: 1000px;
+    opacity: 0.5;
+}
+
+#command-div {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 2.5em;
+}
+
+#command-text-area {
+    background-color: #0B5351;
+    width: 45em;
+    height: 25em;
+    border-radius: 1.5em;
+    border: none;
+    padding: 1em;
+    font-size: 18px;
+}
+
+textarea {
+    font-family: "Fira Code", monospace;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 5px #719ECE;
+}
+
+button {
+    text-decoration: none;
+    font-size: 16px;
+    background: none;
+    border: 1px solid #0B5351;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    color: whitesmoke;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 1em;
+    transition: background-color 500ms, border-color 500ms;
+}
+
+button:hover {
+    background-color: #0B5351;
+    border-color: whitesmoke;
+}
+
+button:focus, button:active {
+    transition: none;
+}
+
+.buttons {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+table {
+    width: 50%;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    border-collapse: separate;
+    overflow: hidden;
+
+    border-radius: 10px;
+    border: solid #0B5351 1px;
+    text-align: center;
+}
+
+th {
+    background-color: #00A9A5;
+    padding: 0.75em;
+}
+
+td {
+    padding: 0.75em;
+}
+
+input {
+    font-family: "Fira Code", monospace;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: solid #0B5351 2px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
